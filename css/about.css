@@ -1,0 +1,49 @@
+
+
+main{
+    margin:auto;
+}
+.content{
+    justify-content:center;
+    align-items: center;
+    margin: 0.7% 9%;
+    display:inline-flex;
+    width:80%;
+    flex-wrap: wrap;
+}
+
+.content img{
+    width: 40%;
+    margin: auto 2%;
+    
+}
+
+.description{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.paragraph{
+    width:100%;
+    padding: 3% 0;
+    display:block;
+}
+
+.paragraph p{
+    font-size: 1.2rem;
+    background: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    .description{
+        width:100%;
+    }
+
+    .paragraph p{
+        font-size: 1rem;
+    }
+
+ }

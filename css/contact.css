@@ -1,0 +1,18 @@
+.description h2{
+    background-color: rgba(0,0,0,0.7);
+    font-size:7rem;
+    font-weight:900;
+    text-align:center;
+    border-bottom: 1px solid white;
+}
+
+a{
+    font-size: 1.7rem;
+    font-weight:400;
+}
+
+.description p{
+    font-size: 1.7rem;
+    font-weight:400;
+    background-color: rgba(0,0,0,0.7);
+}
